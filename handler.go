@@ -15,7 +15,7 @@ const (
 
 var (
 	thumb       = regexp.MustCompile("\\b(https?://[0-9a-z-]+.pinimg.com/)(\\d+x)(/[/0-9a-f]+.jpg)\\b")
-	replacement = []byte("${1}1200x${3}")
+	replacement = []byte("${1}736x${3}")
 	headers     = []string{
 		// Cache control headers
 		"Age",
